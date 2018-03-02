@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>						<!-- Define el documento para HTML5 -->
+<!DOCTYPE html>						<!-- Define el documento para HTML5 -->
 <html lang="es">						<!-- Elemento raiz del documento -->
 	<head>						<!-- Etiqueta para configuracion -->
 		<meta charset="utf-8">
@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">		
 		<title>Proyecto de vida</title>
 	</head>
-	<body style="color:red; font-family:Comic Sans MS;">	<!-- Contenido Visible -->
+	<body style="color:red; font-family:Comic Sans MS; background-color: #DBF8FB">	<!-- Contenido Visible -->
 	<header>
 		<h1>Mi primera pagina con semantica HTML5</h1> 
 	</header>
@@ -25,9 +25,16 @@
 		 el mantenimiento de programas en ambiente web y para dispositivos móviles. </p>
 		</article>
 	</section>
-	<a href="https://www.olx.com.co/perros-cat-1059"><img src="https://media.giphy.com/media/3oKIPsx2VAYAgEHC12/source.gif" width="700px" height="600px" alt="" title="google"></a>
-	<img src="https://media.giphy.com/media/z2yw74z2zxfS8/giphy.gif" width="500px" height="500px" alt="" title="html">
-	<video src="videoplayback.webm"></video>
+	<a href="https://www.olx.com.co/perros-cat-1059"><img src="https://media.giphy.com/media/3oKIPsx2VAYAgEHC12/source.gif" width="100px" height="100px" alt="" title="google"></a>
+	<img src="https://media.giphy.com/media/z2yw74z2zxfS8/giphy.gif" width="100px" height="100px" alt="" title="html">
+	<figure style="text-align: center">
+		<video width="380" height="200" src="video/cancion.mp4" controls autoplay>Tu navegador no soporta este video.</video>
+		<figcaption>Russ</figcaption>
+	</figure>
+	<audio controls>
+		<source src="audio/cancion.mp3" type="audio/mp3">
+		Tu navegador no soporta este audio.
+	</audio>
 	<section>
 		<aside>
 			<p>Comenzó a trabajar para el Instituto para Libertad de los Reporteros y Seguridad (IRFS) desde 2007, <br>
@@ -40,6 +47,7 @@
 			</p>
 		</aside>
 	</section>
+	<iframe width="500" height="490" src="https://www.youtube.com/embed/gH42nqJXxag?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	<footer><q>2018</q></footer>
 	</body>
 </html>
