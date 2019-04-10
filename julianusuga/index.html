@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Julian Usuga - Personal website</title>
+    <meta name="description" content="Pagina personal de Julian Usuga" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="origami.png" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116305779-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116305779-3');
+</script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <img class="icon-origami navbar-brand" src="origami.svg" alt="origami">
+        <button id="button-menu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" id="first-link" href="#">Acerca de mi</a>
+                </li>
+                <li id="second-link" class="nav-item">
+                    <a class="nav-link" id="second-link" href="#">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="third-link" href="#">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="fourth-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="first">
+        <div id="cloud-bg">
+        </div>
+        <p id="text-cloud">
+            Julian Usuga
+            <br>
+            <span class="bottom-text-cloud">
+                Web Developer
+
+            </span>
+        </p>
+
+    </div>
+    <div id="second" class="second">
+        <div id="about-me">
+            <h1>Acerca de mi</h4>
+                <h3>
+                    Hola, mi nombre es Julian Usuga, oriundo de la ciudad de Medellin - Colombia y en la cual
+                    actualmente resido <br>
+                    soy una persona apasionada por las nuevas tecnologias y cada dia dispuesto a aprender, me veo a
+                    futuro como un desarrollador de software o colaborador de grandes compañias tecnologicas <br>
+                    tengo cierta habilidad para solucionar problemas y buscar simpre la mejor solucion
+                    </h6>
+
+        </div>
+
+    </div>
+    <div id="third" class="third">
+        <ul class="project-container unstyled">
+            <li data-aos="zoom-in" class="project-item img1" id="proj-1">
+                <div class="containertext p-4" id="proj-text-1">
+                    <h4>ChatApp</h4>
+                    <p class="m-0"> Aplicacion de envio de mensajes en tiempo real</p>
+                    <div class="m-2">
+                        <p class="m-0">Tecnologias utilizadas:</p>
+                        <img src="icons/firebase.svg" class="icon" title="firebase" alt="firebase">
+                        <img src="icons/javascript.svg" class="icon" title="javascript" alt="javascript">
+                        <img src="icons/html5.svg" class="icon" title="html5" alt="html5">
+
+                    </div>
+                    <div class="m-2"></div>
+                    <a class="btn btn-primary" href="https://chat-app-fd28b.firebaseapp.com/" role="button">Ver</a>
+                </div>
+            </li>
+
+            <li data-aos="zoom-in" class="project-item img2" id="proj-2">
+                <div class="containertext p-4" id="proj-text-2">
+                    <h4>Votacion App</h4>
+                    <p class="m-0"> Aplicacion de votacion (aun en desarrollo)</p>
+                    <div class="m-2">
+                        <p class="m-0">Tecnologias utilizadas:</p>
+                        <img src="icons/python.svg" class="icon" title="python" alt="python">
+                        <img src="icons/flask.svg" class="icon" title="flask" alt="flask">
+                        <img src="icons/javascript.svg" class="icon" title="javascript" alt="javascript">
+                        <img src="icons/html5.svg" class="icon" title="html5" alt="html5">
+
+                    </div>
+                    <div class="m-2"></div>
+                    <a class="btn btn-primary" href="http://votacionapp-dev.us-east-2.elasticbeanstalk.com/" role="button">Ver</a>
+                </div>
+            </li>
+            <li data-aos="zoom-in" class="project-item img3" id="proj-3">
+                <div class="containertext p-4" id="proj-text-3">
+                    <h4>Raffle</h4>
+                    <p class="m-0"> Aplicacion de sorteos con registro de usuario </p>
+                    <div class="m-2">
+                        <p class="m-0">Tecnologias utilizadas:</p>
+                        <img src="icons/php.svg" class="icon" title="php" alt="php">
+                        <img src="icons/mysql.svg" class="icon" title="mysql" alt="mysql">
+                        <img src="icons/javascript.svg" class="icon" title="javascript" alt="javascript">
+                        <img src="icons/html5.svg" class="icon" title="html5" alt="html5">
+
+                    </div>
+                    <div class="m-2"></div>
+                    <a class="btn btn-primary" href="http://raffxd.ml/" role="button">Ver</a>
+                </div>
+
+            </li>
+            <li data-aos="zoom-in" class="project-item img4" id="proj-4">
+                En desarrollo
+            </li>
+            <li data-aos="zoom-in" class="project-item img5" id="proj-5">
+                En desarrollo
+            </li>
+            <li data-aos="zoom-in" class="project-item img6" id="proj-6">
+                En desarrollo
+            </li>
+            <li data-aos="zoom-in" class="project-item img7" id="proj-7">
+                En desarrollo
+            </li>
+            <li data-aos="zoom-in" class="project-item img8" id="proj-8">
+                En desarrollo
+            </li>
+            <li data-aos="zoom-in" class="project-item img9" id="proj-9">
+                En desarrollo
+            </li>
+        </ul>
+
+    </div>
+    <div id="fourth" class="fourth">
+        <div class="experience">
+            <h1 id="experience-title">Experiencia</h1>
+            <div class="experience-panel">
+                <div class="experience-item">
+                    <h3>HTML5 / CSS</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%"
+                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                </div>
+                <div class="experience-item">
+                    <h3>JAVASCRIPT / JQUERY</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%"
+                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                </div>
+                <div class="experience-item">
+                    <h3>C#</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 63%"
+                            aria-valuenow="63" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="experience-panel">
+                <div class="experience-item">
+                    <h3>PHP</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 68%"
+                            aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                </div>
+                <div class="experience-item">
+                    <h3>SQL / MySQL</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%"
+                            aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                </div>
+                <div class="experience-item">
+                    <h3>PYTHON</h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 43%"
+                            aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div id="footer" class="footer">
+        <h1 id="contact-title">Contactame</h1>
+        <div class="footer-contact">
+            <a target="_blank" href="https://twitter.com/jualusor"><i class="fab fa-twitter social-button"></i></a>
+            <a target="_blank" href="https://github.com/jazulado"><i class="fab fa-github social-button"></i></a>
+            <a target="_blank" href="https://www.instagram.com/ffin/"><i class="fab fa-instagram social-button"></i></a>
+            <a target="_blank" href="mailto:julianusu@gmail.com?subject=Contacto"><i class="fas fa-envelope social-button"></i></a>
+        </div>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.7.1/rellax.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+    }
+    $("#first-link").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#second").offset().top
+        }, 1000);
+    });
+    $("#second-link").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#third").offset().top
+        }, 1000);
+    });
+    $("#third-link").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#fourth").offset().top
+        }, 1000);
+    });
+    $("#fourth-link").click(function () {
+        $('html, body').animate({
+            scrollTop: $(document).height()
+        }, 1000);
+    });
+    var isOpened = false;
+    $("#button-menu").click(function () {
+        isOpened = !isOpened;
+        if ($(window).scrollTop() < 420) {
+            if (isOpened == true) {
+                $(".navbar").addClass("bg-nav");
+            } else {
+                $(".navbar").removeClass("bg-nav");
+            }
+
+        }
+    });
+    var currentscroll = 0;
+    var isToggled = true;
+    var pscroll = 0;
+    $(window).scroll(function (event) {
+        pscroll = $(this).scrollTop();
+
+        pscroll > currentscroll ? isToggled = true : isToggled = false;
+
+        pscroll >= 420 ? $(".navbar").addClass("bg-nav") : $(".navbar").removeClass("bg-nav");
+
+
+        if (isToggled == true) {
+            if (!$("button.navbar-toggler").hasClass("collapsed")) {
+                $(".navbar").css({
+                    top: "-325px",
+                    transition: "all 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) 0s"
+                });
+
+            } else {
+                $(".navbar").css({
+                    top: "-141px",
+                    transition: "all 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) 0s"
+                });
+            }
+
+        } else {
+            $(".navbar").css({
+                top: "0px",
+                transition: "all 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) 0s"
+            });
+        }
+        currentscroll = pscroll;
+    });
+    $(function () {
+        $("#cloud-bg").load("forest.svg");
+    });
+
+    AOS.init();
+</script>
+<script src="main.js"></script>
+
+</html>
